@@ -15,7 +15,6 @@ func TestMax(t *testing.T) {
 		args args
 		want int32
 	}{
-		// TODO: Add test cases.
 		{"test max all zeros", args{0, 0}, 0},
 		{"test max positive", args{1, 2}, 2},
 		{"test max negtive", args{-1, -2}, -1},
