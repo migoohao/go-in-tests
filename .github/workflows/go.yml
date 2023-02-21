@@ -27,19 +27,19 @@ jobs:
       run: make build
 
     - name: Upload Linux Go build
-        uses: actions/upload-artifact@v3
-        with:
-          name: go-in-tests-linux
-          path: go-in-tests-linux
+      uses: actions/upload-artifact@v3
+      with:
+        name: go-in-tests-linux
+        path: go-in-tests-linux
 
     - name: Upload Mac Go build
-        uses: actions/upload-artifact@v3
-        with:
-          name: go-in-tests-darwin
-          path: go-in-tests-darwin
+      uses: actions/upload-artifact@v3
+      with:
+        name: go-in-tests-darwin
+        path: go-in-tests-darwin
 
     - name: Upload Win Go build
-        uses: actions/upload-artifact@v3
-        with:
-          name: go-in-tests-windows
-          path: go-in-tests-windows
+      uses: actions/upload-artifact@v3
+      with:
+        name: go-in-tests-windows
+        path: go-in-tests-windows
